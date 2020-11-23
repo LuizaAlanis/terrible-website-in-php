@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    * {
+        border: 0;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    :root {
+        font-size: calc(16px + (20 - 16)*(100vw - 320px)/(1024 - 320));
+    }
+
+	body{
+		background-color: #EEE;
+    	color: #363636;
+    	font-family: 'Poppins';
+        line-height: 1.5;
+    }
+    a {
+        color:#247BA0;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    a:active {
+        color: #247BA0;
+    }
+    a:visited {
+        color:#247BA0;
+    }
+    h1 {
+		font: 2em 'ADAM';
+		COLOR: #247BA0;
+        line-height: 1.5;
+        margin-bottom: .75em;
+    }
+    p, ul {
+        margin-bottom: 1.5em;
+    }
+    ul {
+        margin-left: 1.5em;
+    }
+    main, canvas {
+        display: block;
+    }
+    canvas {
+        display: block;
+        margin: 0 auto 1.5em auto;
+        width: 100%;
+        height: auto;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .wrap {
+        margin: auto;
+        padding: 1.5em;
+        max-width: 37.5em;
+	}
+	/*
+    @media (prefers-color-scheme: dark) {
+        body {
+            background: #323031;
+            color: #f1f1f1;
+        }
+        a {
+            color:#247BA0;
+        }
+        a:active {
+            color:#247BA0;
+        }
+        a:visited {
+            color: #87a9f9;
+        }
+    } */
+    </style>	
+</head>
+<body>
+<main>
+	<div class="wrap">
+		<h1>Uh-Oh! Not Found? Or something happened?</h1>
+		<canvas width="560" height="312"></canvas>
+		</br>
+		<p>There are many possibilities... </br></br> 1. you’re in the middle of nowhere. The page you requested either was moved or doesn’t exist.
+		</br></br> 2. you tried to sign in, but, the information was wrong or you was trying to sign up but the user already exist.
+		</p>
+		
+		<p>What you can do:</p>
+		<ul>
+			<li>Go back <a href="index.php">home.</a></li>
+			<li><a href="duvidaForm.php">Contact</a> to me if you believe this happened in error.</li>
+		</ul>
+    </div>
+	<script src="graphic.js"></script>
+</main>
+</body>
+</html>
